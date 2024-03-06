@@ -86,9 +86,9 @@ The service discovery service, in particular, is interesting its primary job is 
 ### Stateful Service
 The only stateful service is our chat service. It is stateful as it maintain a persistent connection with clients which connect to it.
 
-In this case, a client doesn't switch to other chat services as long as the existing one stays alive.
+In this case, a client doesn't switch to other chat server as long as the existing server stays alive.
 
-Service discovery coordinates closely with the chat services to avoid overload.
+Service discovery coordinates closely with the chat services to avoid server overload.
 
 ### Third-party Integration
 It is important for a chat application to support push notifications in order to get notified when someone sends you a message.
