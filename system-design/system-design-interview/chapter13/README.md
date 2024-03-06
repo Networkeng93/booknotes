@@ -81,7 +81,7 @@ Traditional public-facing request/response services are used to manage login, si
 
 These services sit behind a load-balancer, which distributes requests across a set of service replicas.
 
-The service discovery service, in particular, is interesting and will be discussed more in-depth in the deep dive.
+The service discovery service, in particular, is interesting its primary job is to give the client a list of DNS host names of chat servers that the client could connect to.
 
 ### Stateful Service
 The only stateful service is our chat service. It is stateful as it maintain a persistent connection with clients which connect to it.
