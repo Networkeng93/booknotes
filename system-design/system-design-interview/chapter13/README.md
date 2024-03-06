@@ -107,7 +107,7 @@ Here's our refined high-level design:
  * Presense servers manage online/offline status
  * API servers handle traditional request/response-based responsibilities - login, sign up, change profile, etc.
  * Notification servers manage push notifications
- * Key-value store is used for storing chat history. When offline user goes online, they will see their chat history and missed messages.
+ * Key-value store is used for storing chat history. When an offline user comes online, they will see their chat history and missed messages.
 
 ### Storage
 One important decision for the storage/data layer is whether we should go with a SQL or NoSQL database.
