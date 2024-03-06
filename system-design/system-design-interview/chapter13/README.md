@@ -96,14 +96,9 @@ It is important for a chat application to support push notifications in order to
 This component won't be discussed extensively as it's already covered in the [Design a notification system chapter](../chapter11).
 
 ### Scalability
-On a small scale, we can fit everything in a single server.
+On a small scale, we might be able fit everything in a single server but one big drawback of a single server design is the single point of failure
 
 With 1mil concurrent users, assuming each connection takes up 10k memory, a single server will need to use 10GB of memory to service them all.
-
-Despite this, we shouldn't propose a single-server setup as it raises a red flag in the interviewer.
-One big drawback of a single server design is the single point of failure.
-
-It is fine, however, to start from a single-server design and extend it later as long as you explicitly state that during the interview.
 
 Here's our refined high-level design:
 ![refined-high-level-design](images/refined-high-level-design.png)
