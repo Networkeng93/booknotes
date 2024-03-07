@@ -1,6 +1,8 @@
 # Design a Chat System
 We'll be designing a chat system similar to Messenger, WhatsApp, etc.
 
+https://medium.com/@sureshpodeti/system-design-whatsapp-87bd39fe2f51
+
 In this case, it is very important to nail down the exact requirements because chat systems can differ a lot - eg ones focused on group chats vs. one-on-one conversations.
 
 # Step 1 - Understand the problem and establish design scope
