@@ -1,4 +1,6 @@
 https://www.youtube.com/watch?v=ZhXqNcbR4n0&ab_channel=FooBarServerless
+https://www.youtube.com/watch?v=rnZmdmlR-2M&ab_channel=TusharRoy-CodingMadeSimple
+
 # Design a Key-Value Store
 Key-value stores are a type of non-relational databases.
  * They are distributed hash tables (DHTs) with keys
