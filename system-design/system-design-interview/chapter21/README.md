@@ -42,7 +42,7 @@ A variety of metrics can be monitored:
  * Flexibility - System should be able to easily integrate new technologies in the future
 
 What requirements are out of scope?
- * Log monitoring - the ELK stack is very popular for this use-case
+ * Log monitoring - the ELK Stack: Elasticsearch, Kibana, Beats & Logstash stack is very popular for this use-case
  * Distributed system tracing - this refers to collecting data about a request lifecycle as it flows through multiple services within the system
 
 # Step 2 - Propose High-Level Design and Get Buy-In
